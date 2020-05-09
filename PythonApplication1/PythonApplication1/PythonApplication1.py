@@ -6,5 +6,10 @@ def main():
     x = np.arange(0, radians(1800), radians(12))
     plt.plot(x, np.cos(x), 'b')
     plt.show()
+    
+    y = np.arange(0, radians(1800), radians(12))
+    plt.plot (y, np.sin(y), 'r')
+    plt.show()
+
 
 main()
